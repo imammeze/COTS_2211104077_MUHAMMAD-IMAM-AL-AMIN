@@ -17,7 +17,14 @@ class Homepage extends StatelessWidget {
               hintText: 'Find food, services, or places...',
               hintStyle: TextStyle(color: Colors.grey),
               prefixIcon: Icon(Icons.search, color: Colors.grey),
-              border: InputBorder.none,
+              border: OutlineInputBorder(
+                borderRadius: BorderRadius.circular(8),
+                borderSide: const BorderSide(color: Colors.black),
+              ),
+              focusedBorder: OutlineInputBorder(
+                borderRadius: BorderRadius.circular(8),
+                borderSide: const BorderSide(color: Colors.black),
+              ),
               contentPadding: EdgeInsets.symmetric(horizontal: 8, vertical: 12),
             ),
           ),

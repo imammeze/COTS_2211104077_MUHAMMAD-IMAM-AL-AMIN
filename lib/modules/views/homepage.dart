@@ -35,7 +35,6 @@ class Homepage extends StatelessWidget {
             icon: CircleAvatar(),
           ),
         ],
-        backgroundColor: Colors.green, // Warna AppBar
       ),
     );
   }
